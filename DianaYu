@@ -1,0 +1,14 @@
+For a classical mechanic system described by a Hamiltonian H(pi,qi) with N particles, the microstate is determined by the canonical positions and momentum of each particles, for example, if the particles move in a 3 dimensional space, each microstate can be described by a representative point $(q_{1},...,q_{3N},p_{1},...p_{3N})$ in a 6N dimensional phase space. The representative points move in phase space according to Hamiltonian equation of motion. In statistical mechanics, an ensemble is all the microscopic states corresponding to a given macroscopic system. Liouville’s theorem asserts that for such a system, phase space distribution function is constant along the trajectory during time evolution, that is
+\begin{equation}
+\frac{d\rho}{dt} = \frac{\partial\rho}{\partial t} + \Sigma_{i = 1}^{n}(\frac{\partial\rho}{\partial q_{i}}\dot{q_{i}}+\frac{\partial\rho}{\partial p_{i}}\dot{p_{i}}) = 0
+\end{equation}
+Macroscopic observables can be written as the statistical average of the ensemble for a system in equilibrium, so the distribution function is important for us to determine the system’s macroscopic properties. And since macroscopic properties of the system remains constant in equilibrium state, phase space distribution function does not change with time: $\frac{\partial\rho}{\partial t} = 0$
+, so the Poisson bracket of $\rho$ and the Hamiltonian, $\{\rho, H\}$ equals 0.
+
+Liouville’s Theorem also implies that phase space volume is preserved in a Hamiltonian system.
+Entropy is defined as
+\begin{equation}
+	S = k_B\ln(\Omega),
+	\label{eqS}
+\end{equation}
+The accessible phase space volume $\Omega$ measures the amount of the phase space available to the microscopic system while it is in a certain macroscopic state. Then, since $\Omega$ is preserved in an equilibrium state, while microstates constantly evolves, entropy is preserved, so there is no heat flow and no disorder increasing.
